@@ -7,9 +7,11 @@ Docker 建置實戰講堂
 
 報名系統：
 
-  - [第三梯次](http://containersummit.ithome.com.tw/workshop/#ticket) : 2015-04-11
-  - 第二梯次 : 2015-03-07
-  - 第一梯次 : 2015-02-07
+  - [第五梯次](http://containersummit.ithome.com.tw/workshop/#ticket) : 2015-06-27 (高雄)
+  - 第四梯次 : 2015-05-09 (台北)
+  - 第三梯次 : 2015-04-11 (台北)
+  - 第二梯次 : 2015-03-07 (台北)
+  - 第一梯次 : 2015-02-07 (台北)
 
 
 ## 課程目標
@@ -18,6 +20,21 @@ Docker 建置實戰講堂
 
 
 ## 課程簡介
+
+- Docker 技術總覽
+- 實習環境介紹
+- 常用的工具指令：docker cli、docker compose
+- 常用的 Dockerfile 指令
+- 從極簡化 Docker image 領會 Docker 三大特色
+- Docker 化典型伺服器軟體（以 Redis、Nginx 為例）
+- 從程式源碼建置 Docker 化軟體（以 PHP、Node.js 為例）
+- GitHub 與 Docker Hub 連動
+- Docker 網路模型
+- Docker 化軟體要素（暨常見地雷）：port、volume、daemon off
+- 綜合運用
+
+
+## 課程特色
 
 1. **Docker 的 Why**：從 DevOps 角度，分析 Docker 的優異特性：dependency、isolation、lightweight、standard。
 
@@ -30,7 +47,7 @@ Docker 建置實戰講堂
 
 ## 課程時數
 
-6 小時。
+6 小時，涵蓋 90% 教材內容。
 
 
 ## 適合對象
@@ -40,7 +57,7 @@ Docker 建置實戰講堂
 
 ## 報名須知
 
-1. 本課程含大量實機操作內容，請自備筆記型電腦。
+1. 本課程含大量實機操作內容，請自備 **64 位元**的筆記型電腦（Windows、Mac、Linux 皆可，但需要是 **64 位元**的版本）。
 
 2. 建議上課前學習 Git 版本控制指令：
 
@@ -49,10 +66,8 @@ Docker 建置實戰講堂
 
 3. 具備以下能力能讓你學得更快：
 
-   - 用過任何一種程式語言或框架（譬如：Bash、C、Java、Node.js、PHP、Python、Ruby...），撰寫可在 Linux 上執行的程式，並部署之。
+   - 用過任何一種程式語言或框架（譬如：Bash、C、Go、Java、Node.js、PHP、Python、Ruby...），撰寫可在 Linux 上執行的程式，並部署之。
 
    - 曾在 Linux 上安裝過任何一種開放源碼伺服器軟體（譬如：Apache HTTP Server、MongoDB、MySQL、Nginx、WordPress...）。
 
    - 在任何一種雲端平台（Amazon EC2、DigitalOcean、Google Compute Engine、Linode、Microsoft Azure...），完成上述任務。
-
-

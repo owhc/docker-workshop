@@ -12,9 +12,13 @@
 4. 列印參考資料
 
 
+[ Next: --> [行前準備 Part 2](config.md) ]
+
+
+
 ## 1. 安裝軟體
 
-本課程的「實機操作」部分，需要學員自備筆記型電腦。而這些筆電的作業系統，可能是 Windows，也可能是 Mac OS X，或各種 Linux distributions。
+本課程的「實機操作」部分，需要學員自備 **64 位元**的筆記型電腦。而這些筆電的作業系統，可能是 Windows，也可能是 Mac OS X，或各種 Linux distributions。
 
 為了讓課程有個一致的實作環境，減少干擾施教者與學習者的環境變因，我們統一使用 [Vagrant](http://www.vagrantup.com/) + [VirtualBox](https://www.virtualbox.org/) 虛擬機器組合，作為課堂實作的統一環境。對這種軟體組合的技術細節感興趣的，請見本文附錄：【關於 Vagrant】。這裡先只講軟體安裝步驟。
 
@@ -37,7 +41,7 @@
 
 ### 1.2：Windows 作業系統注意事項
 
-在 Windows 上，下載 VirtualBox 兩個安裝檔時，最好先置於「完全由英文字或阿拉伯數字所組成的路徑」上，再執行安裝程序，比較不會出現奇奇怪怪的問題。
+在 Windows 上，下載 VirtualBox 兩個安裝檔時，最好先置於「完全由**英文字**或**阿拉伯數字**所組成的路徑」上，再執行安裝程序，比較不會出現奇奇怪怪的亂碼問題。
 
 - 安裝 VirtualBox 時，如果遇到以下錯誤：
 
@@ -63,14 +67,11 @@
 
 
 
-最後，為了 Vagrant 運作順暢，你還需要一個「**純命令列**的 ssh 程式」。如果你堅持要用 [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/)、[PieTTY](http://ntu.csie.org/~piaip/pietty/) 或[可攜版](http://jedi.org/PieTTYPortable/)，可能會在某些進階步驟踩到地雷，建議你安裝一個「**純命令列**的 ssh 程式」吧。以下是一些輕量級的 `ssh.exe` 選項：
+最後，為了 Vagrant 運作順暢，你還需要一個「**純命令列**的 ssh 程式」（像 [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/)、[PieTTY](http://ntu.csie.org/~piaip/pietty/) 或[可攜版](http://jedi.org/PieTTYPortable/)之類的 GUI 程式，可能會在某些進階步驟踩到地雷；非 power user 請勿嘗試）。本課程建議您安裝以下這個「**純命令列**的 ssh 程式」：
 
-  - [OpenSSH for Windows](http://sourceforge.net/projects/opensshwindows/)
-  - [Git for the Windows platform](http://git-scm.com/download/win) 裡面含有一枚 `ssh.exe`
+ - [Git for the Windows platform](http://git-scm.com/download/win)，不但有 `git.exe`，裡面也含有一枚 `ssh.exe`。
 
-安裝後，記得要去【控制台】把 `ssh.exe` 路徑加到 `PATH` 環境變數。
-
-或者，乾脆安裝整套 [MinGW](http://www.mingw.org/) 或 [Cygwin](https://www.cygwin.com/) 算了⋯⋯
+安裝後，記得要去【控制台】把 `ssh.exe` 所在路徑加到 `PATH` 環境變數。
 
 
 ### 1.3：磁碟空間
@@ -110,9 +111,9 @@ B. 按右上角的 ![Watch Button](img/icon-github-watch.png) 按鈕。
 
 有幾份資料，在課堂上會反覆用到。因著作權所限，我們無法主動提供紙本。如果您習慣在紙本上註記，請於參加課程之前自行列印，攜至課堂上。
 
-  - [Docker 命令查詢](http://philipzheng.gitbooks.io/docker_practice/content/appendix_command/README.html)
-
   - [一張圖總結 Docker 的命令](http://philipzheng.gitbooks.io/docker_practice/content/_images/cmd_logic.png) ← 彩色
+
+  - [Docker 命令查詢](http://philipzheng.gitbooks.io/docker_practice/content/appendix_command/README.html)
 
   - [Dockerfile 指令](http://philipzheng.gitbooks.io/docker_practice/content/dockerfile/instructions.html)
 
